@@ -1,0 +1,11 @@
+.card-wrapper{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 100vh;
+    
+}
+.card-inner{
+   font-family: 'DM Sans', sans-serif;
+   max-width: 50rem;
+}

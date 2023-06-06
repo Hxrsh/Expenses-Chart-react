@@ -1,0 +1,48 @@
+p{
+    margin: 0;
+}
+hr{
+  border: 0;
+  height: 0;
+  border-top: 1px solid  rgb(224, 234, 234);
+  margin-top: 1.5rem;
+  margin-bottom: 2rem;
+}
+.wrap{
+    padding: 1.5rem;
+    background-color: white;
+    border-radius: 15px;
+   
+}
+.heading{
+    font-size: 1.5rem;
+    font-weight: 700;
+   margin-bottom: 3rem;
+}
+.details{
+    display: flex;
+    justify-content: space-between;
+    align-items:end;
+}
+.thisheader{
+    font-size: 0.8rem;
+    color: rgb(150, 155, 155);
+    letter-spacing: 1px;
+    margin-bottom: 0.5rem;
+}
+.thisexpense{
+    font-size: 1.8rem;
+    font-weight: 700;
+    
+}
+.lastSubhead{
+    font-size: 0.8rem;
+    color: rgb(150, 155, 155);
+    letter-spacing: 1px;
+    
+}
+.lastPercent{
+    font-weight: 700;
+    margin-bottom: 0.3rem;
+    text-align: end;
+}

@@ -1,0 +1,48 @@
+.container{
+    display: flex;
+    gap: 1.3rem;
+}
+.wrap{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    height: 12rem;
+    justify-content: end;
+   
+}
+   
+.bar {
+    /* height :10%; */
+    background-color: hsl(10, 79%, 65%);
+    border-radius: 5px;
+    width: 3rem;
+    position: relative;
+    
+}
+.bar:hover{
+    background-color: hsl(186, 34%, 60%);
+}
+.bar::before{
+    content: attr(hover-text);
+    position: absolute;
+    z-index: 1;
+    visibility: hidden;
+    background-color: black;
+    color: white;
+    padding: 0.5rem;
+    text-align: center;
+    border-radius: 5px;
+    top:-40px;
+    right:-8px;
+
+    
+}
+.bar:hover::before{
+    visibility: visible;
+}
+   
+.description{
+    color:rgb(150, 155, 155) ;
+    font-size: 1rem;
+    text-align: center;
+}
