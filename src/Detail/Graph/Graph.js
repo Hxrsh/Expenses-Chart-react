@@ -2,6 +2,10 @@ import classes from "./Graph.module.css";
 const Graph = function (props) {
   const data = [
     {
+      day: "mon",
+      amount: 17.45,
+    },
+    {
       day: "tue",
       amount: 34.91,
     },
